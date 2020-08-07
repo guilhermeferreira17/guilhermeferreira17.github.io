@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+/*Formatação do Menu*/
+
+#menu ul{
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 0px;
+    margin:0px;
+    position:absolute;
+    float: right;
+    right: -10px;
+    top: 26px;
+    left: 120px;
+}
+
+#menu li{
+    display:inline-block;
+    background-color: white;
+    color: black;
+    padding: 4px 2px;
+    margin: 4px;
+    border:2px solid black;
+    padding: 2px;
+}
+
+
+.lista{
+    display:inline-block;
+    background-color: white;
+    padding: 4px 2px;
+    margin: -2px;
+    color: black;
+    text-decoration: none;  
+    transition: 0.5s;
+
+}
+
+.lista:hover{
+    background: black;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*Formatação do cabeçário */
+
+#logo{
+    width: 120px;
+    height: 100px;
+    position:absolute;
+    float: left;
+    top: 4px;
+    left: -6px;
+    right: -5px;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+#banner{
+    background-image: url(imagens/banner.jpg);
+    background-size: cover;
+    padding:20% ;
+    margin: 0px -20px 40px ;
+    width: 100%;
+
+}
+
+#titulo{    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    line-height: 2em;
+    font-size: 35px;
+    color: black;
+    margin-bottom: 1em;
+    margin-top: -2em;
+    width: 100%;
+}
+
+#subtitulo{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+
+#botao{
+    background-color: white;
+    padding:2px;
+    color: black;
+    text-decoration: none;
+    text-align: center;  
+    transition: 0.5s;
+    border:2px solid black;  
+}
+
+#acao{
+   text-align: center;
+   margin-top: 100px; 
+   padding: 0;
+}
+
+
+#botao:hover{
+    background-color: black;
+    color: white; 
+}
+
+/*formatação da interface */
+
+#interface{
+    width:100%;
+ 
+}
+
+/*formatação da borda*/
+#bordas{
+display: block;
+}
+
+#borda1{
+    background-color: blue;
+    width:100%;
+    height:200px;
+    margin: 0;
+    padding: 0;
+    }
+
+#borda2{
+
+}
+
+#rodape{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 124px;
+}
+
+/*Formatação das colunas*/
+
+
+
+/*Formatação das seções 1,2,3,4,5*/
+
+p{
+
+}
+
+
+h3{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 45px;
+
+}
+
+h4{
+
+}
+
+
+img{
+    height:100%;
+    width:100%;
+}
+
+.icones{
+    display:block;
+    
+}
+.apresentar{
+padding: 0px;
+margin-bottom: 30px;
+margin-top:25px ;
+}
+
+
+#video{
+
+}
+
+/*Formatação do Rodapé */
+
+#rodape{
+    background-image: url(imagens/borda.jpg);
+    padding: 74px;
+    position: relative;
+}
