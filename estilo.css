@@ -249,6 +249,31 @@ margin-right: 6%;
 
 }
 
+/*formatação da tabela*/
+
+#tabela{
+    border: 2px solid black;
+    padding: 0;
+    
+}
+
+td.etapas{
+    background-color: gray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid black;
+    padding: 9.5px;
+}
+
+td.celulas{
+    background-color: darkgray;
+    text-align: justify;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    border:2px solid black;
+    padding: 9.5px;
+    
+}
 
 /*Formatação do Rodapé */
 #rodape{
